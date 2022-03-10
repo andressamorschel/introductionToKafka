@@ -5,8 +5,6 @@ import lombok.Data;
 @Data
 public class PersonRequest {
 
-    private String personId;
-
     private String name;
 
     private int age;

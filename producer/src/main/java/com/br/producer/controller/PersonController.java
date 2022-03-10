@@ -23,7 +23,7 @@ public class PersonController {
     }
 
     @GetMapping
-    public List<PersonResponse> findAllPeople(){
+    public List<PersonResponse> findAllPeople() {
         return personService.findAllPeople();
     }
 }
