@@ -1,4 +1,4 @@
-package com.br.consumer.demo;
+package com.br.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
