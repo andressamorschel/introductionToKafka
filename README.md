@@ -13,7 +13,11 @@ The consumer is responsible for reading the messages stored in the topic, so thi
 ```bash
 $ git clone https://github.com/andressamorschel/introductionToKafka.git
 ```
-- In the main directory, raise the docker container:
+- In the root directory, lift the docker container:
 ```bash
 $ docker-compose up
+```
+- Go to the directory of one of the services and start:
+```bash
+$ gradle bootrun
 ```
