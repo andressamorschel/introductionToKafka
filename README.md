@@ -25,3 +25,4 @@ $ docker-compose up
 ```bash
 $ gradle bootrun
 ```
+<h4 align="center">Developed by Andressa Morschel👩‍💻</h4>
