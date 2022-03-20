@@ -1,7 +1,7 @@
 <h1 align="center">Introduction To Kafka With Spring </h1>
 
 ## 💡Description
-This repository is used to demonstrate introducing messaging using Apache Kafka with Spring. The article created referring to this repository can be found at: https://www.seguroviagem.srv.br/
+This repository is used to demonstrate introducing messaging using Apache Kafka with Spring. The article created referring to this repository can be found at: https://www.oi.br/
 
 This project consists of two applications, namely:
 ### Producer:
