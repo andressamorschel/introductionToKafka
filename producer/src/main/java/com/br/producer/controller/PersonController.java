@@ -1,7 +1,7 @@
 package com.br.producer.controller;
 
 import com.br.producer.controller.dto.PersonRequest;
-import com.br.producer.controller.dto.PersonResponse;
+import com.br.producer.domain.Person;
 import com.br.producer.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -18,12 +18,12 @@ public class PersonController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public PersonResponse createPerson(@RequestBody PersonRequest request) {
+    public Person createPerson(@RequestBody PersonRequest request) {
         return personService.createPerson(request);
     }
 
     @GetMapping
-    public List<PersonResponse> findAllPeople() {
+    public List<Person> findAllPeople() {
         return personService.findAllPeople();
     }
 }

@@ -17,8 +17,6 @@ public class Person {
     @Id
     private String id;
 
-    private String personId;
-
     private String name;
 
     private int age;
